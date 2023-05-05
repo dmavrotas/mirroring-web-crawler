@@ -1,6 +1,6 @@
 package main
 
-import "mirroring-web-crawler/cmd"
+import "wget-mirror/cmd"
 
 func main() {
 	cmd.Execute()
