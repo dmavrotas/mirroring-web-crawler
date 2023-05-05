@@ -1,0 +1,8 @@
+.terraform
+main.zip
+main
+.metals
+.idea
+.vscode
+/coverage.out
+/coverage.xml
