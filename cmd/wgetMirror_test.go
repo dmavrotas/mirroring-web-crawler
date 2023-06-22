@@ -18,7 +18,7 @@ func Test_Execute_HappyPath(t *testing.T) {
 
 	visited, _ := loadAlreadyVisitedFiles("destination")
 
-	assert.Equal(t, 628, len(visited))
+	assert.Equal(t, 630, len(visited))
 
 	t.Cleanup(func() {
 		osErr := os.RemoveAll("destination")
